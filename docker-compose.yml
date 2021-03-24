@@ -28,8 +28,8 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: 'mysql'
             MYSQL_DATABASE: 'enviame_challenge'
-            MYSQL_USER: 'agrup'
-            MYSQL_PASSWORD: 'agrup'
+            MYSQL_USER: 'root'
+            MYSQL_PASSWORD: 'root'
             MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
         volumes:
             - 'sailmysql:/var/lib/mysql'
