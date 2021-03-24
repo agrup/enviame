@@ -94,3 +94,10 @@ composer install
 ./vendor/bin/sail up
 
 ```
+
+Luego hay que correr los migrations y llenar la base
+
+```
+
+./vendor/bin/sail artisan migrate --seed
+```
