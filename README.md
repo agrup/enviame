@@ -15,6 +15,8 @@
 
 ●  Docker-compose
 
+●  Composer
+
 ## Instalacion
 
 crear directorio de instalacion del proyecto
