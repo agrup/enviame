@@ -79,9 +79,16 @@ DB_PASSWORD=agrup
 ```
 
 
-correr el entorno
+instalr las dependencias de composer
 
 ```
-vendor/bin/sail up
+composer install
+
+```
+
+```
+./vendor/bin/sail build
+
+./vendor/bin/sail up
 
 ```
